@@ -1,0 +1,11 @@
+#language: PT
+
+Funcionalidade: Acesso ao site da webmotors
+
+Cenário - Buscar Carro
+Dado que o usuario acesse a pagina inicial da webmotors
+E a pagina estiver carregada totalmente
+E o usuario selecionar comprar
+Quando o usuario seleciona a marca
+E seleciona o modelo
+Então a pagina de pesquisa é exibida com o carro pesquisado

@@ -1,0 +1,179 @@
+{
+  "id": "09b4353e-2ade-4ca2-94d9-8c579cc7adbe",
+  "version": "2.0",
+  "name": "Webmotors",
+  "url": "https://www.webmotors.com.br",
+  "tests": [{
+    "id": "86812da4-4abd-440a-9ae3-9c3460d7171d",
+    "name": "cenario 1",
+    "commands": [{
+      "id": "512effba-7139-435a-9e97-5bac1b4528f6",
+      "comment": "",
+      "command": "open",
+      "target": "/?financiamento=true",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df4fd828-c5ad-4461-bf50-0d1d70451f92",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee3525ad-1b22-4705-bef8-9e8792d58ace",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchBar",
+      "targets": [
+        ["id=searchBar", "id"],
+        ["css=#searchBar", "css:finder"],
+        ["xpath=//input[@id='searchBar']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cc44005-3783-4d7f-9df1-392503ddf948",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchBar",
+      "targets": [
+        ["id=searchBar", "id"],
+        ["css=#searchBar", "css:finder"],
+        ["xpath=//input[@id='searchBar']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "honda"
+    }, {
+      "id": "daa8eb59-ba82-4353-bdc6-6e03956e2037",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SearchBar__results__group:nth-child(1) .SearchBar__results__result__name",
+      "targets": [
+        ["css=.SearchBar__results__group:nth-child(1) .SearchBar__results__result__name", "css:finder"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/div/div/div/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2eafd462-bd93-477f-afd4-67eb143bdca4",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.Filters__container__scroll",
+      "targets": [
+        ["css=.Filters__container__scroll", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//main/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "313,115"
+    }, {
+      "id": "ce1e9482-1456-49af-9316-c9d080190681",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.Filters__container__scroll",
+      "targets": [
+        ["css=.Filters__container__scroll", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//main/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "313,115"
+    }, {
+      "id": "340ce913-c329-4acf-b240-132c2c224f8b",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.Filters__container__scroll",
+      "targets": [
+        ["css=.Filters__container__scroll", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//main/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "313,115"
+    }, {
+      "id": "45447f67-a22c-4f68-b0a2-222844a77d1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Filters__line--gray",
+      "targets": [
+        ["css=.Filters__line--gray", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div/div[2]/div[2]/div/form/div[3]/div[2]/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "badcbe50-3d14-4bf0-b796-033d08d3ad23",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CITY",
+      "targets": [
+        ["linkText=CITY", "linkText"],
+        ["css=.SlideLeft--opened .Filters__line:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'CITY')]", "xpath:link"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div[3]/div/div[5]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.webmotors.com.br/carros/estoque/honda/city')]", "xpath:href"],
+        ["xpath=//div[5]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'CITY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e91e51ec-b38f-4c45-b169-ead3dbd3e2a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Filters__line--gray",
+      "targets": [
+        ["css=.Filters__line--gray", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div/div[2]/div[2]/div/form/div[3]/div[2]/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df07d20f-33e1-4128-b428-5be0190ad847",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=1.5 EX 16V FLEX 4P AUTOMÁTICO",
+      "targets": [
+        ["linkText=1.5 EX 16V FLEX 4P AUTOMÁTICO", "linkText"],
+        ["css=.Filters__container__group:nth-child(4) > .Filters__line:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'1.5 EX 16V FLEX 4P AUTOMÁTICO')]", "xpath:link"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div[2]/div/div[4]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.webmotors.com.br/carros/estoque/honda/city/15-ex-16v-flex-4p-automatico')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'1.5 EX 16V FLEX 4P AUTOMÁTICO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "845527cd-2f8f-46ba-b8ae-a71f54265fa5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-kvZOFW:nth-child(2) .CardVehicle__linkPhoto:nth-child(1) > img",
+      "targets": [
+        ["css=.sc-kvZOFW:nth-child(2) .CardVehicle__linkPhoto:nth-child(1) > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2020/202005/20200523/honda-city-1.5-ex-16v-flex-4p-automatico-WMIMAGEM14050196484.jpg?s=fill&w=249&h=186&q=70')]", "xpath:img"],
+        ["xpath=//div[@id='root']/main/div/div[3]/div[2]/div/div/div/div[2]/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6433",
+      "windowTimeout": 2000
+    }, {
+      "id": "b55e611d-9db6-4776-bff0-fa72c138f2ca",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6433}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "161cf2d9-5925-4ed7-b66f-a8b6aef76157",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["86812da4-4abd-440a-9ae3-9c3460d7171d"]
+  }],
+  "urls": ["https://www.webmotors.com.br/"],
+  "plugins": []
+}
